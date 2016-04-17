@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('http://myblogcode.github.io/icomoon.eot?-cr6w4i');
-	src:url('http://myblogcode.github.io/icomoon.eot?#iefix-cr6w4i') format('embedded-opentype'),
-		url('http://myblogcode.github.io/icomoon.woff?-cr6w4i') format('woff'),
-		url('http://myblogcode.github.io/icomoon.ttf?-cr6w4i') format('truetype'),
+	src:url('https://myblogcode.github.io/icomoon.eot?-cr6w4i');
+	src:url('https://myblogcode.github.io/icomoon.eot?#iefix-cr6w4i') format('embedded-opentype'),
+		url('https://myblogcode.github.io/icomoon.woff?-cr6w4i') format('woff'),
+		url('https://myblogcode.github.io/icomoon.ttf?-cr6w4i') format('truetype'),
 		url('fonts/icomoon.svg?-cr6w4i#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
