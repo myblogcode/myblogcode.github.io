@@ -89,7 +89,7 @@ body.fullscreen #header { position: absolute; }
 .loadreveal.reveal { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); }
 
 /* Logo */
-#logo { width: 15%; height: auto; float: left; margin: 0; font-weight: normal; position: absolute; z-index: 200; vertical-align: middle;  }
+#logo { width: auto; height: 2em; float: left; margin: 0; font-weight: normal; position: absolute; z-index: 200; vertical-align: middle;  }
 #logo a { color: #222; text-decoration: none; white-space: nowrap; display: block; }
 #logo img { display: inline-block; vertical-align: bottom; margin: -100% .5em 0 0; position: relative; top: .5em; display: none; }
 #logo svg path { fill: #222; }
