@@ -39,9 +39,9 @@ function showlatestposts(json) {
     else var postcontent = "";
     var re = /<\S[^>]*>/g; 
     postcontent = postcontent.replace(re, "");
- document.write('<li class="recent-post-title">');
+ document.write('<h2>');
     document.write(posttitle);
- document.write('</li><div class="recent-post-summ">');
+ document.write('</h2><div class="recent-post-summ">');
     if (post_summary == true) {
       if (postcontent.length < summary_chars) {
          document.write(postcontent);
