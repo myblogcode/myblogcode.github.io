@@ -39,9 +39,11 @@ function showlatestposts(json) {
     else var postcontent = "";
     var re = /<\S[^>]*>/g; 
     postcontent = postcontent.replace(re, "");
- document.write('<h2>');
+ document.write('<div class="column-grid column-grid-3"><div class="column column-span-1 column-push-0 column-first"><h2 id="01" class="big no-margin">');
     document.write(posttitle);
- document.write('</h2><div class="recent-post-summ">');
+ document.write('</h2><h3><strong class="small">');
+    if (posts_date == true) document.write('<div class="post-date">' + monthnames[parseInt(showmonth,10)] + ' ' + showday + ' ' + showyear + '</div>');
+ document.write('</strong></h3></div>\<div class="column column-span-2 column-push-0 column-last"><p>');
     if (post_summary == true) {
       if (postcontent.length < summary_chars) {
          document.write(postcontent);
@@ -53,7 +55,6 @@ function showlatestposts(json) {
          document.write(postcontent + ' ' + readmorelink);
 }
 }
- document.write('</div>');
-if (posts_date == true) document.write('<div class="post-date">' + monthnames[parseInt(showmonth,10)] + ' ' + showday + ' ' + showyear + '</div>');
+document.write('</p></div></div>'); 
 }
 }
