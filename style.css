@@ -120,7 +120,7 @@ body.fullscreen #header { position: absolute; }
 #header nav ul.sub-menu ul { position: static; margin: 0; z-index: 1000; }
 #header nav ul.sub-menu ul li { border-radius: 0 !important; }
  
-#header nav #menu-burger { display: none; float: right; position: relative; line-height: 36px; padding: 0 0 0 1.5em; z-index: 998; color: #555; vertical-align: middle; cursor: pointer; }
+#header nav #menu-burger { display: none; float: right; position: relative; line-height: 36px; padding: 0 0 0 1.5em; z-index: 202; color: #555; vertical-align: middle; cursor: pointer; }
 #header nav #menu-burger:hover { color: #222; }
 
 #header nav #searchicon {  float: right; position: relative; padding: 0 0 0 1em; z-index: 202; }
