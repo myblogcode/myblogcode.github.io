@@ -55,6 +55,6 @@ function showlatestposts(json) {
          document.write(postcontent + ' ' + readmorelink);
 }
 }
-document.write('</p></div></div><hr class="divider" /><hr />'); 
+document.write('</p></div></div><hr />'); 
 }
 }
