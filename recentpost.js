@@ -41,7 +41,7 @@ function showlatestposts(json) {
     postcontent = postcontent.replace(re, "");
  document.write('<hr /><div class="column-grid column-grid-3"><div class="column column-span-1 column-push-0 column-first"><h3><strong class="small">');
     document.write(posttitle);
- document.write('</h3><h4 class="small grey">');
+ document.write('</strong></h3><h4 class="small grey">');
     if (posts_date == true) document.write('<div class="post-date">' + monthnames[parseInt(showmonth,10)] + ' ' + showday + ' ' + showyear + '</div>');
  document.write('</h4></div>\<div class="column column-span-2 column-push-0 column-last"><p>');
     if (post_summary == true) {
